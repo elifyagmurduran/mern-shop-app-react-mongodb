@@ -1,0 +1,53 @@
+# Node / package
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Vite / build outputs
+dist/
+build/
+.cache/
+.vite/
+
+# Environment
+.env
+.env.*.local
+
+# Logs and reports
+logs/
+*.log
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+coverage/
+.nyc_output
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDEs / editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+.history/
+
+# Misc / tooling
+*.tgz
+.lock-wscript
+.cache/
+dist/
+.tmp/
+.env.test
+
+# Ignore all node build outputs anywhere
+**/node_modules/
+docs/
